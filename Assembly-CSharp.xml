@@ -627,6 +627,11 @@
             Presumably, whether jet engines will work in this body's atmosphere
             </summary>
         </member>
+        <member name="F:CelestialBody.atmosphereDepth">
+            <summary>
+            The height of this body's atmosphere, if it has one
+            </summary>
+        </member>
         <member name="F:CelestialBody.atmosphereMultiplier">
             <summary>
             Seems to be the pressure of the body's atmosphere at sea level, in units of Kerbin atmospheres at sea level.
