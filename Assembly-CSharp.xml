@@ -629,7 +629,7 @@
         </member>
         <member name="F:CelestialBody.atmosphereDepth">
             <summary>
-            The height of this body's atmosphere, if it has one
+            The height of this body's atmosphere in meters, if it has one
             </summary>
         </member>
         <member name="F:CelestialBody.atmosphereMultiplier">
