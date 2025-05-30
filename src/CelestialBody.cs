@@ -19,7 +19,7 @@ public class CelestialBody /*: MonoBehaviour, ITargetable, IDiscoverable*/
     /// rotation and its magnitude is the rotation rate in radians per second.
     /// </summary>
     public Vector3d angularVelocity;
-    public float atmoshpereTemperatureMultiplier;
+    public float atmosphereTemperatureMultiplier;
     /// <summary>
     /// Whether this body has an atmosphere
     /// </summary>
@@ -29,7 +29,7 @@ public class CelestialBody /*: MonoBehaviour, ITargetable, IDiscoverable*/
     /// </summary>
     public bool atmosphereContainsOxygen;
     /// <summary>
-    /// The height of this body's atmosphere, if it has one
+    /// The height of this body's atmosphere in meters, if it has one
     /// </summary>
     public double atmosphereDepth;
     /// <summary>
