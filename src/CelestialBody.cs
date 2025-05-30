@@ -29,6 +29,10 @@ public class CelestialBody /*: MonoBehaviour, ITargetable, IDiscoverable*/
     /// </summary>
     public bool atmosphereContainsOxygen;
     /// <summary>
+    /// The height of this body's atmosphere, if it has one
+    /// </summary>
+    public double atmosphereDepth;
+    /// <summary>
     /// Seems to be the pressure of the body's atmosphere at sea level, in units of Kerbin atmospheres at sea level.
     /// Appears to only have an effect when useLegacyAtmosphere is toggled on
     /// </summary>
