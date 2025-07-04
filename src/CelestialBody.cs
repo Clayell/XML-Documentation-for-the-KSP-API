@@ -58,7 +58,7 @@ public class CelestialBody /*: MonoBehaviour, ITargetable, IDiscoverable*/
     public double gMagnitudeAtCenter;
     /// <summary>
     /// The gravitational parameter GM is the universal gravitational constant G times the mass M of the body. 
-    /// In KSP the gravitational constant G is exactly 6.673 * 10^-11 m^3 / (kg s^2), and the body mass is measured in
+    /// In KSP the gravitational constant G is exactly 6.67408 * 10^-11 m^3 / (kg s^2), and the body mass is measured in
     /// kilograms.
     /// </summary>
     public double gravParameter;
