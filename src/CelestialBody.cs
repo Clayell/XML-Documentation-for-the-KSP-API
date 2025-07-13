@@ -49,7 +49,7 @@ public class CelestialBody /*: MonoBehaviour, ITargetable, IDiscoverable*/
     public CelestialBodyType bodyType;
     public double directRotAngle;
     /// <summary>
-    /// The gravitational acceleration of the body at sea level, in units of gees (1 gee = 9.81 m/s^2)
+    /// The gravitational acceleration of the body at sea level, in units of gees (1 gee = 9.80665 m/s^2)
     /// </summary>
     public double GeeASL;
     /// <summary>
