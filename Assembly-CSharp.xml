@@ -646,7 +646,7 @@
         </member>
         <member name="F:CelestialBody.GeeASL">
             <summary>
-            The gravitational acceleration of the body at sea level, in units of gees (1 gee = 9.81 m/s^2)
+            The gravitational acceleration of the body at sea level, in units of gees (1 gee = 9.80665 m/s^2)
             </summary>
         </member>
         <member name="F:CelestialBody.gMagnitudeAtCenter">
