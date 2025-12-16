@@ -11,7 +11,7 @@
 /// [assembly: KSPAssembly("ModBName", 2, 6)]
 /// </code>
 ///
-/// where "ModBName" is the name of Mod B (Mod B's .dll?). Replace 2 and 6 with the major and minor version of
+/// where "ModBName" is the name of Mod B in its KSPAssembly. Replace 2 and 6 with the major and minor version of
 /// Mod B.
 /// 
 /// Then Mod A should add the following line to the end of Properties/AssemblyInfo.cs:
@@ -33,3 +33,4 @@ public class KSPAssemblyDependency : Attribute
 
     public extern KSPAssemblyDependency(string name, int versionMajor, int versionMinor);
 }
+
